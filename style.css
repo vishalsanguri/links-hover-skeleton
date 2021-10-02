@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.hero {
+  width: 50vw;
+  height: 20vh;
+  margin: auto;
+  background-color: red;
+}
+.navbar {
+  width: 100%;
+  position: relative;
+}
+.logo {
+  width: 100px;
+  height: 100%;
+  color: white;
+  border: 1px solid red;
+  position: absolute;
+  top: 0;
+  left: -100px;
+  transition: all 0.5s linear;
+}
+.logo2 {
+  transform: translateX(100%);
+}
+.navbar ul {
+  display: flex;
+  column-gap: 100px;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
